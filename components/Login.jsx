@@ -9,7 +9,7 @@ import { currentUser } from "../store/actions/userAction";
 export default function Login(props){
     const dispatch = useDispatch()
     
-    const [input, setInput] = useState({ email:"boba@mail.com", password:"123456"})
+    const [input, setInput] = useState({ email:"", password:""})
     const signUp = async () => {
         try {
             
